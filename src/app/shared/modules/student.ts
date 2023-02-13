@@ -6,6 +6,7 @@ export class Student {
   email : string;
 
 
+
   constructor(firstName: string, lastName: string, age: string, email: string) {
     this.firstName = firstName;
     this.lastName = lastName;
