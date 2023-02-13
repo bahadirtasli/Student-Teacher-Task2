@@ -11,7 +11,7 @@ import {find} from "rxjs";
 })
 export class AppComponent implements OnInit {
 
-  title = 'angular-list-task';
+  title = 'ANGULAR LİST TASK2';
   ngOnInit(): void {
 
     this.students = this.fetchStudents();
@@ -30,6 +30,7 @@ export class AppComponent implements OnInit {
   fetchStudents() : Student[] {
 
     let newStudent : Student [] = [];
+
 
 
     newStudent.push(new Student('Bahadir','Tasli','30','bhdr@gmail.com'));
